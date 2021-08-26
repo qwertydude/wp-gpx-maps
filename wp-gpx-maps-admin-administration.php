@@ -25,7 +25,7 @@ function wpgpxmaps__register_settings() {
 
 	<div class="wpgpxmaps-container-tab-settings">
 
-		<form method="post" action="options.php">
+		<form method="post" action="options-general.php?page=WP-GPX-Maps&tab=administration">
 			<?php wp_nonce_field( 'update-options' ); ?>
 
 			<h3 class="title">
